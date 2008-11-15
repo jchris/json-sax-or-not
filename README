@@ -1,0 +1,9 @@
+to run tests, do this in the erl shell:
+
+c(djson), c(json_lex2), c(json_parser), c(json_grammar), djson:test().
+
+there are 2 implementations of decode/1 in djson. (one is sax like, and one uses leex/yecc)
+
+toggle which one is commented out to check that both are equivalent.
+
+see http://github.com/jchris/erlang-json-eep-parser for the complete source for the leex/yecc implementation.

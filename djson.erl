@@ -309,6 +309,7 @@ tests(binary) ->
    "[-123,\"foo\",{\"bar\":[]},null]"},
 
    % todo get raw numbers working
+   {123.456, "1.23456E+2"},
    {42, "42"}
    
 ].
